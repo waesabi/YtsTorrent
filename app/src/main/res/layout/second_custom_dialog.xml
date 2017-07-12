@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/relative_layout_table"
+    android:layout_height="210dp"
+    android:layout_alignParentTop="true"
+    >
+
+
+
+
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="#f45b5b"
+        android:layout_height="220dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <View
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                tools:ignore="HardcodedText" />
+
+            <ImageView
+                android:id="@+id/close_image"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:src="@drawable/ic_close_white_48dp"
+                android:padding="13dp"
+                tools:ignore="ContentDescription" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <View
+                android:gravity="center"
+                android:background="#c6c4c4"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                tools:ignore="HardcodedText" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:text="Download Movie"
+                android:id="@+id/download_text"
+                android:paddingLeft="30dp"
+                android:paddingTop="16dp"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_width="match_parent"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <View
+                android:gravity="center"
+                android:background="#c6c4c4"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                tools:ignore="HardcodedText" />
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:text="Imdb Homepage"
+                android:id="@+id/imdb_text"
+                android:paddingLeft="30dp"
+                android:paddingTop="16dp"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:layout_height="50dp"
+                android:textColor="@android:color/white"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <View
+                android:gravity="center"
+                android:background="#c6c4c4"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                tools:ignore="HardcodedText" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:text="Yts Homepage"
+                android:id="@+id/yts_text"
+                android:paddingLeft="30dp"
+                android:textColor="@android:color/white"
+                android:paddingTop="16dp"
+                android:textSize="16sp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:layout_width="match_parent"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+</RelativeLayout>

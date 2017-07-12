@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:layout_width="0dp"
+        android:background="#bfbcbc"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:textColor="#FF5722"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:text="@string/suggested_movie"
+        tools:ignore="HardcodedText" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:background="#d1cccc"
+        android:layout_gravity="center_vertical"
+        android:layout_height="1dp"/>
+
+</LinearLayout>

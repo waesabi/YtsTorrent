@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF171920"
+    android:id="@+id/parent_view"
+    tools:context="kumarsanket.torrentmovie.TopRatedActivity">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/rated_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:ignore="MissingConstraints">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/rated_recycler_view"/>
+
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+
+    <ProgressBar
+        android:visibility="visible"
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:visibility="visible"
+        android:id="@+id/wait_a_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wait_a_second"
+        android:textColor="#bebaba"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/progress_bar"/>
+
+
+</RelativeLayout>

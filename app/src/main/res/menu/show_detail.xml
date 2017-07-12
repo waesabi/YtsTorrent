@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/movie_home_page"
+        android:icon="@drawable/ic_open_in_browser_white"
+        app:showAsAction="always"
+        android:title="Homepage"
+        android:checkable="true"
+        />
+
+    <item
+        android:title="Download"
+        android:id="@+id/movie_download_torrent"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_file_download_white"/>
+</menu>

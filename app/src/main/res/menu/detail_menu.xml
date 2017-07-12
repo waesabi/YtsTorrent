@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Home"
+        android:id="@+id/home_page"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_home_white"/>
+
+    <item
+        android:title="Download"
+        android:id="@+id/download_torrent"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_cloud_download_white_24dp"/>
+</menu>

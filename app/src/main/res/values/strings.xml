@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">HD Movie Download</string>
+
+
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    // night mode ----------------------------------------***---------------------------------------
+    <string name="menu_night_mode">Night mode</string>
+    <string name="menu_night_mode_system">Follow system</string>
+    <string name="menu_night_mode_day">Day (always)</string>
+    <string name="menu_night_mode_night">Night (always)</string>
+    <string name="menu_night_mode_auto">Auto</string>
+
+    // ***--------------------***-------------------------------------------------------------------
+
+    // title
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Shows airing today</item>
+        <item>Movies</item>
+        <!--<item>Setting</item>-->
+        <item>Share</item>
+    </string-array>
+
+    <string name="home">Home</string>
+    <string name="three_d_movie">3D Movie</string>
+    <string name="top_rated_movie">Top Rated Movie</string>
+    <string name="movies">Movies</string>
+    <string name="setting">Setting</string>
+    <string name="about_us">About us</string>
+    <string name="feedback">Feedback</string>
+    <string name="share">Share</string>
+    <string name="help">Help &amp; Support</string>
+    <string name="rate_us">Rate us</string>
+
+
+    <string name="open_drawer">openDrawer</string>
+    <string name="close_drawer">closeDrawer</string>
+
+    <!--Ad unit ID-->
+    <string name="admob_banner_ad">ca-app-pub-8710002251681287/9415812254</string>
+    <string name="admob_interstitial_ad">ca-app-pub-8710002251681287/1892545458</string>
+    <string name="admob_native_ad">ca-app-pub-8710002251681287/4846011855</string>
+    <string name="admob_native_video_ad">ca-app-pub-8710002251681287/4507934652</string>
+    <string name="admob_rewarded_video_ad">ca-app-pub-8710002251681287/7526949859</string>
+
+
+    // download layout
+    <string name="download_movie">Download movie</string>
+    <string name="yts_homepage">Yts Homepage</string>
+    <string name="imdb_homepage">Imdb Homepage</string>
+
+    <string name="description">Description</string>
+    <string name="trailer">Trailer</string>
+    <string name="wait_a_second">Wait a second...</string>
+    <string name="suggested_movie">Suggested Movie</string>
+
+
+</resources>

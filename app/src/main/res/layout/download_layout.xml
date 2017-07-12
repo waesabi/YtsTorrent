@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relative_layout_circular"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:visibility="invisible"
+    android:background="#181818"
+    android:layout_gravity="bottom"
+    android:layout_width="match_parent"
+    android:layout_height="301dp">
+
+    <Button
+        android:clickable="true"
+        android:visibility="visible"
+        android:id="@+id/download_movie"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:text="@string/download_movie"
+        android:background="#282828"
+        android:textColor="#e1dddd"
+        android:foreground="?android:attr/selectableItemBackground"
+        />
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/imdb_homepage"
+        android:layout_marginTop="12dp"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:clickable="true"
+        android:layout_marginBottom="12dp"
+        android:background="#282828"
+        android:text="@string/imdb_homepage"
+        android:textColor="#e1dddd"
+        android:layout_below="@id/download_movie"
+        android:foreground="?android:attr/selectableItemBackground"
+        />
+
+    <Button
+        android:clickable="true"
+        android:id="@+id/yts_homepage"
+        android:visibility="invisible"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="12dp"
+        android:background="#282828"
+        android:textColor="#e1dddd"
+        android:text="@string/yts_homepage"
+        android:layout_below="@id/imdb_homepage"
+        android:foreground="?android:attr/selectableItemBackground"
+        />
+
+
+
+</RelativeLayout>

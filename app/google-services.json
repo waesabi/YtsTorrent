@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "450641921968",
+    "firebase_url": "https://shownow-moviestv.firebaseio.com",
+    "project_id": "shownow-moviestv",
+    "storage_bucket": "shownow-moviestv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450641921968:android:18a07a59bc8388b9",
+        "android_client_info": {
+          "package_name": "kumarsanket.shownow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450641921968-0cmfpi91geb87hv7rv95ms91fk572cbr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kumarsanket.shownow",
+            "certificate_hash": "e17ae7af3b75ee4a5e912eabc101d5889d4e69ad"
+          }
+        },
+        {
+          "client_id": "450641921968-ktell2cv8e61gfsalr9vv97hhum73q73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn1VtEzi7qigDBURS_yWMegqc5nD3svXo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450641921968-ktell2cv8e61gfsalr9vv97hhum73q73.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450641921968:android:75f3d9f483533a4e",
+        "android_client_info": {
+          "package_name": "kumarsanket.torrentmovie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "450641921968-o7h5e4ck342jvhvapd16orsj4268p6rq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kumarsanket.torrentmovie",
+            "certificate_hash": "e17ae7af3b75ee4a5e912eabc101d5889d4e69ad"
+          }
+        },
+        {
+          "client_id": "450641921968-ktell2cv8e61gfsalr9vv97hhum73q73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn1VtEzi7qigDBURS_yWMegqc5nD3svXo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "450641921968-ktell2cv8e61gfsalr9vv97hhum73q73.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

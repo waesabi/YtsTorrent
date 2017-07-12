@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF21242E</color>
+    <color name="colorPrimaryDark">#FF21242E</color>
+    <color name="colorAccent">#FF5722</color>
+
+    <color name="background_color">#d2cbcb</color>
+
+    <color name="indigo">#4b0082</color>
+    <color name="pink">#FF1493</color>
+
+    <color name="colorControlHighlight">#dfd9d9</color>
+    <color name="green">#1dd609</color>
+    <color name="ripple_color">#c2baba</color>
+
+
+    <!--<color name="colorAccent">#FF5412</color>-->
+    // try this color  #FF21242E , FF171920 , FFFE7D55 , FFF05225 ,---- old color - #282828 , #282828  , #1dd609 ,#14333D #A51810
+
+    <color name="colorPrimary2">#FF171920</color>
+    <color name="colorPrimaryDark2">#FF171920</color>
+    <color name="colorAccent2">#FF5722</color>
+
+    <!--FF171920-->
+
+</resources>

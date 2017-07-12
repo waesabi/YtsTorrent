@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "441845043796",
+    "firebase_url": "https://torrentmovie-b67ba.firebaseio.com",
+    "project_id": "torrentmovie-b67ba",
+    "storage_bucket": "torrentmovie-b67ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441845043796:android:75f3d9f483533a4e",
+        "android_client_info": {
+          "package_name": "kumarsanket.torrentmovie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441845043796-gje5d8a7kjr97nqgrc3f52cnsen5lf8v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASA2iYHSUyyO-3Zggwc7W0X9O4z5ESe6Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

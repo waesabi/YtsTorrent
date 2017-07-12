@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFF"
+    android:id="@+id/view_group"
+    android:layout_height="match_parent"
+    tools:context="kumarsanket.torrentmovie.AboutUsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="56dp">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/info_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="#f25858"
+        android:text="HD Movie Download App is developed by Sanket Kumar"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:src="@mipmap/ic_app_icon2"
+        android:layout_marginBottom="20dp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/info_text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="All data is provided by YTS.AG"
+        android:gravity="center"
+        android:textColor="#b64b4b"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>

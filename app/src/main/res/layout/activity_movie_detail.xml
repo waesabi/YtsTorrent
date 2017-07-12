@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#FF171920"
+    android:id="@+id/parent_view"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    tools:context="kumarsanket.torrentmovie.MovieDetailActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.like.LikeButton
+                app:icon_type="heart"
+                app:icon_size="25dp"
+                android:layout_marginRight="60dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/star_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+            <ImageView
+                android:id="@+id/share_icon"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_share_white_24dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/first_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:fab="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:background="#FF171920"
+            android:id="@+id/scroll_view"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_height="match_parent"
+            tools:context="kumarsanket.torrentmovie.MovieDetailActivity"
+            tools:ignore="UselessParent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <android.support.v7.widget.CardView
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="match_parent"
+                    card_view:cardBackgroundColor="@android:color/transparent"
+                    android:id="@+id/image_card_view"
+                    app:cardElevation="2dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_height="wrap_content"
+                    tools:ignore="UnusedAttribute">
+
+                    <RelativeLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/movie_image"
+                            android:layout_width="match_parent"
+                            android:layout_height="220dp"
+                            android:layout_centerHorizontal="true"
+                            android:scaleType="centerInside"
+                            tools:ignore="ContentDescription,ObsoleteLayoutParam,UnusedAttribute" />
+
+                        <LinearLayout
+                            android:id="@+id/layout"
+                            android:layout_below="@id/movie_image"
+                            android:background="#181818"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <TextView
+                                android:layout_marginTop="4dp"
+                                android:id="@+id/movie_name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom"
+                                android:textColor="#FFF"
+                                android:paddingLeft="10dp"
+                                android:textStyle="bold"
+                                tools:ignore="RtlHardcoded,RtlSymmetry,Suspicious0dp" />
+
+                            <TextView
+                                android:id="@+id/movie_genre"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="top"
+                                android:paddingLeft="8dp"
+                                android:textColor="#c4c1c1"
+                                android:layout_marginBottom="10dp"
+                                tools:ignore="RtlHardcoded,RtlSymmetry,Suspicious0dp"
+                                android:maxLines="1" />
+
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="5dp"
+                    android:layout_below="@id/image_card_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/description"
+                    android:text="Description"
+                    android:textColor="#FFF05225"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="5dp"
+                    android:layout_below="@id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/description_view"
+                    android:text="Description"
+                    android:textColor="#a7a3a3"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:paddingLeft="10dp"
+                    android:textColor="#FFF05225"
+                    android:layout_below="@id/description_view"
+                    android:id="@+id/trailer"
+                    android:text="Trailer"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+
+
+                <android.support.v7.widget.CardView
+                    app:cardElevation="5dp"
+                    android:visibility="invisible"
+                    android:id="@+id/trailer_card_view"
+                    app:cardBackgroundColor="#282828"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_below="@id/trailer"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerCrop"
+                            android:id="@+id/trailer_thumbnail"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ccircle_background"
+                            android:layout_centerInParent="true"
+                            tools:ignore="ContentDescription" />
+
+                        <ImageView
+                            android:id="@+id/play_icon"
+                            android:visibility="invisible"
+                            android:src="@drawable/ic_play_arrow_white_48dp"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:layout_centerInParent="true"
+                            tools:ignore="ContentDescription" />
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+            </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/fab_background"-->
+        <!--android:src="@drawable/ic_file_download_white"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_margin="16dp"-->
+        <!--tools:ignore="RelativeOverlap,RtlHardcoded" />-->
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fab_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="11dp"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        fab:menu_animationDelayPerItem="55"
+        fab:menu_backgroundColor="@android:color/transparent"
+        fab:menu_buttonSpacing="0dp"
+        fab:menu_colorNormal="#FFF05225"
+        fab:menu_colorPressed="#FFF05225"
+        fab:menu_colorRipple="#99d4d4d4"
+        fab:menu_fab_size="normal"
+        fab:menu_icon="@drawable/fab_add"
+        fab:menu_labels_colorNormal="#333"
+        fab:menu_labels_colorPressed="#444"
+        fab:menu_labels_colorRipple="#66efecec"
+        fab:menu_labels_cornerRadius="3dp"
+        fab:menu_labels_ellipsize="none"
+        fab:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+        fab:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+        fab:menu_labels_margin="0dp"
+        fab:menu_labels_maxLines="-1"
+        fab:menu_labels_padding="8dp"
+        fab:menu_labels_position="left"
+        fab:menu_labels_showShadow="true"
+        fab:menu_labels_singleLine="false"
+        fab:menu_labels_textColor="#f2f1f1"
+        fab:menu_labels_textSize="15sp"
+        fab:menu_openDirection="up"
+        fab:menu_shadowRadius="4dp"
+        fab:menu_shadowXOffset="1dp"
+        fab:menu_shadowYOffset="4dp"
+        fab:menu_showShadow="true">
+
+
+        <!--fab:menu_fab_label="Select Option"-->
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_imdb_homepage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFF05225"
+            android:src="@drawable/ic_home_white"
+            fab:fab_label="IMDB Homepage"
+            fab:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_yts_homepage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFF05225"
+            android:src="@drawable/ic_home_white"
+            fab:fab_label="YTS Homepage"
+            fab:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab_download"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_file_download_white"
+            fab:fab_label="Download"
+            android:background="#FFF05225"
+            fab:fab_size="mini" />
+
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyNewTheme" parent="AppTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="android:colorControlHighlight">@color/ripple_color</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">false</item>
+        <item name="android:windowAllowReturnTransitionOverlap">false</item>
+        <!--<item name="android:colorControlHighlight">@color/ripple_color</item>-->
+    </style>
+
+
+    <style name="MyButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#1dd609</item>
+        <item name="colorButtonNormal">@color/pink</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="android:colorControlHighlight">@color/ripple_color</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">false</item>
+        <item name="android:windowAllowReturnTransitionOverlap">false</item>
+        <!--<item name="android:colorControlHighlight">@color/ripple_color</item>-->
+    </style>
+
+
+    <style name="SecondMovieDetailTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary2</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark2</item>
+        <item name="colorAccent">@color/colorAccent2</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="android:colorControlHighlight">@color/ripple_color</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">false</item>
+        <item name="android:windowAllowReturnTransitionOverlap">false</item>
+    </style>
+
+
+
+
+
+
+
+
+
+</resources>
