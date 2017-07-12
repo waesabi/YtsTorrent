@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HD Movie Download</string>
+    <string name="app_name">YtsTorrent</string>
 
 
     <string name="player_error">Error initializing YouTube player: %s</string>
