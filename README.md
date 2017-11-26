@@ -3,7 +3,7 @@ This app uses yts.ag torrent api and let you download latest movie of different 
 (720p , 1080p , 3D) using torrent client app . 
 
 
-![screenshot_2017-07-12-13-43-55-374_kumarsanket torrentmovie](https://user-images.githubusercontent.com/22784462/28108176-410c0ad2-6708-11e7-9fec-dbde68f0b873.png)
+![screenshot_2017-07-12-13-43-55-374_kumarsanket torrentmovie](https://user-images.githubusercontent.com/22784462/28108176-410c0ad2-6708-11e7-9fec-dbde68f0b873.png) | width=100
 
 ![screenshot_2017-07-12-09-40-00-871_kumarsanket torrentmovie 1](https://user-images.githubusercontent.com/22784462/28108300-a3f84228-6708-11e7-9701-d484c2e00d32.png)
 
